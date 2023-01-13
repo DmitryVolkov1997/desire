@@ -10,50 +10,15 @@
 
 <body>
 
-    <div id="app">
-        <div class="header">
-            <div class="container">
-                <div class="header__inner">
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">
-                                    About
-                                </a>
-                            </li>
-                            <li class="menu__list-item">
-                                <a class="menu__list-link" href="#">
-                                    About
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+    <div class="wrapper">
+        <%- header %>
 
-                    <a class="logo" href="#">
-                        <img src="./app/images/logo.svg" alt="logo">
-                    </a>
+            <main class="main">
+                main
+            </main>
 
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__list-item">
-                                <a href="#" class="menu__list-link">
-                                    Blog
-                                </a>
-                            </li>
-                            <li class="menu__list-item">
-                                <a href="#" class="menu__list-link">
-                                    Contact
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-        <div class="wrapper">
-            <main class="main"></main>
-            <footer class="footer"></footer>
-        </div>
+            <%- sidebar %>
+                <%- footer %>
     </div>
 
     <script type="module" src="/app/js/main.js"></script>
